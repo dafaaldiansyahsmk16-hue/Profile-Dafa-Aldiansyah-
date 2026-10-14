@@ -1066,3 +1066,14 @@ html.js .timeline .exp-card.reveal:nth-child(5) {
     transform: none;
   }
   }
+
+/* Hapus tombol pergantian tema lama */
+#themeToggle,
+#theme-toggle,
+.theme-toggle,
+.theme-switch,
+[data-theme-toggle],
+button[aria-label*="mode" i],
+button[aria-label*="tema" i] {
+  display: none !important;
+}
